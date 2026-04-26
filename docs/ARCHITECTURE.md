@@ -1,4 +1,4 @@
-# 📘 FinnaBBear Architecture (Next.js 16 Standard)
+# 📘 ChubiPocket Architecture (Next.js 16 Standard)
 
 This document outlines the project structure for Next.js 16 (App Router), emphasizing **Server Components**, **Server Actions**, and **Mobile-First Design**.
 
@@ -7,7 +7,7 @@ This document outlines the project structure for Next.js 16 (App Router), emphas
 We will add an `actions/` folder and reduce the role of `api/`.
 
 ```text
-finna-bbear-web/
+chubi-pocket-web/
 ├── public/
 ├── src/
 │   ├── actions/                # 🆕 (Server Actions) Functions to call Go Backend

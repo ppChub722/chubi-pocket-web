@@ -1,4 +1,4 @@
-# 🌍 FinnaBBear Localization (i18n)
+# 🌍 ChubiPocket Localization (i18n)
 
 เอกสารนี้กำหนดมาตรฐานการรองรับหลายภาษา (Thai/English) โดยใช้ **`next-intl`** แบบ **Cookie-based Routing**
 
@@ -6,13 +6,13 @@
 
 เราใช้ระบบ **Cookie-based Localization** เพื่อให้ URL สะอาดและไม่มี Prefix ภาษา
 
-- **URL:** `finnabbear.com/dashboard` (เหมือนกันทุกภาษา)
-- **Persistence:** เก็บภาษาที่เลือกไว้ใน Cookie ชื่อ **`finna_locale`**
+- **URL:** `chubipocket.com/dashboard` (เหมือนกันทุกภาษา)
+- **Persistence:** เก็บภาษาที่เลือกไว้ใน Cookie ชื่อ **`chubi_locale`**
 
 ### 1.1 Tech Stack
 
 - **Library:** `next-intl`
-- **Storage:** Cookies (`finna_locale`)
+- **Storage:** Cookies (`chubi_locale`)
 
 ## 2. Directory Structure
 
@@ -94,7 +94,7 @@ export function LanguageSwitcher() {
 
   const changeLang = (lang: string) => {
     // 1. Set Cookie
-    document.cookie = `finna_locale=${lang}; path=/; max-age=31536000; SameSite=Lax`
+    document.cookie = `chubi_locale=${lang}; path=/; max-age=31536000; SameSite=Lax`
     // 2. Refresh Page
     router.refresh()
   }
@@ -110,6 +110,6 @@ export function LanguageSwitcher() {
 
 ## 5. Rules for AI Agent 🤖
 
-1.  **Cookie Name:** ใช้ `finna_locale` เสมอ
+1.  **Cookie Name:** ใช้ `chubi_locale` เสมอ
 2.  **No Middleware Rewrites:** เราลบ `middleware.ts` ออกแล้ว เพื่อป้องกัน 404 และให้ URL ทำงานแบบปกติ
 3.  **Request Config:** `src/i18n/request.ts` ต้องอ่านจาก `cookies()` ถ้า `requestLocale` เป็น undefined

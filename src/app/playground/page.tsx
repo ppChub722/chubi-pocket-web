@@ -25,7 +25,7 @@ export default function PlaygroundPage() {
   useAuth()
 
   const changeLanguage = (locale: string) => {
-    document.cookie = `finna_locale=${locale}; path=/; max-age=31536000; SameSite=Lax`
+    document.cookie = `chubi_locale=${locale}; path=/; max-age=31536000; SameSite=Lax`
     router.refresh()
   }
 

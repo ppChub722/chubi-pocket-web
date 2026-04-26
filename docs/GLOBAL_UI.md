@@ -1,4 +1,4 @@
-# 🧩 FinnaBBear Global UI Systems
+# 🧩 ChubiPocket Global UI Systems
 
 This document establishes the standards for Global Overlay Components, using **Zustand** for State management and rendering at `RootLayout` to reduce redundancy.
 

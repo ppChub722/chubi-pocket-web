@@ -1,6 +1,6 @@
-# 🎨 FinnaBBear Design System
+# 🎨 ChubiPocket Design System
 
-This document establishes the Design System standards for FinnaBBear, emphasizing Mobile-First, Thai language support, and Dynamic Theming.
+This document establishes the Design System standards for ChubiPocket, emphasizing Mobile-First, Thai language support, and Dynamic Theming.
 
 ## 1. Color System (Dynamic Theming)
 

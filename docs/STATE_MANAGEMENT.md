@@ -1,6 +1,6 @@
-# 📘 FinnaBBear State Management Guidelines
+# 📘 ChubiPocket State Management Guidelines
 
-This document establishes the **Client-Side State** management standards for the FinnaBBear project (Next.js 16), using **Zustand** as the core and the **Facade Pattern** to control data access.
+This document establishes the **Client-Side State** management standards for the ChubiPocket project (Next.js 16), using **Zustand** as the core and the **Facade Pattern** to control data access.
 
 ## 1. Philosophy
 

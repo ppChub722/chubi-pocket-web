@@ -17,7 +17,7 @@ const notoSansThai = Noto_Sans_Thai({
 })
 
 export const metadata: Metadata = {
-  title: 'FinnaBBear',
+  title: 'ChubiPocket',
   description: 'Financial Management App',
 }
 

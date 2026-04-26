@@ -7,7 +7,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
 
   if (!locale) {
     const cookieStore = await cookies()
-    locale = cookieStore.get('finna_locale')?.value
+    locale = cookieStore.get('chubi_locale')?.value
   }
 
   // Ensure that a valid locale is used
